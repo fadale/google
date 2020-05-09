@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  header {
+    width: 100%;
+  }
+  ul {
+    list-style: none;
+  }
+  #nav-bar {
+    float: left;
+  }
+  #nav-bar li {
+    display: inline-block;
+    padding: 9px;
+  }
+  #nav-bar .nav-links {
+    color: #404040;
+  }
+  #sign-in {
+    background-color: #4887ef;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px 15px;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  #sign_in a {
+    color: #ffff;
+  }
+  #sign-in:hover {
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+  /* google logo*/
+  .google img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 30px;
+    max-width: 30%;
+    min-width: 10%;
+    max-height: 30%;
+  }
+  /* form */
+  .form {
+    text-align: center;
+  }
+  #form-search {
+    min-width: 450px;
+    line-height: 32px;
+    padding: 20px 10px;
+    margin-bottom: 15px;
+  }
+  .form #form-search {
+    padding: 0 8px;
+    border: 1px solid;
+    border-radius: 25px;
+  }
+  .form #form-search:hover {
+    box-shadow: 1px 1px 5px #999;
+  }
+  /* button search */
+  .button {
+    text-align: center;
+  }
+  .button input {
+    background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  }
+  .button input[type="submit"]:hover{
+    border:1px solid #DDD;
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+  /* footer*/
+  footer{
+    background:#DDD;
+    position: fixed;
+    bottom: 0;
+     width: 100%;
+  }
+  footer .country{
+    text-align: right;
+    border-top: solid 1px #CCC;
+    max-width: 100%;
+    margin-right: 10px;
+    padding: 10px 0;
+  }
+  footer .tools{
+    border-top: 1px solid #CCC;
+    padding: 10px 0;
+  }
+  footer ul:first-child, footer ul:last-child{
+    display: inline;
+  }
+  footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+  }
+  footer ul:last-child{
+    float: right;
+    margin: 0;
+  }
+  
+  
